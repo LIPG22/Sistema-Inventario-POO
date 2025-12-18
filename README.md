@@ -20,7 +20,7 @@ Datos enviados a la base de datos.
 <img width="418" height="150" alt="image" src="https://github.com/user-attachments/assets/4e0ffa94-9183-4a7b-a7cc-525c1089bec2" />
 
 ### Validación de Datos
-Lanzara un mensaje notificando que falta llenar los campos para poder agregar un producto.
+Lanzará un mensaje notificando que falta llenar los campos para poder agregar un producto.
 <img width="781" height="588" alt="image" src="https://github.com/user-attachments/assets/03396146-9f29-4089-984f-b1f82d12b4f0" />
 
 ### Eliminar Producto y Persistencia
