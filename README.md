@@ -20,7 +20,7 @@ Datos enviados a la base de datos.
 <img width="418" height="150" alt="image" src="https://github.com/user-attachments/assets/4e0ffa94-9183-4a7b-a7cc-525c1089bec2" />
 
 ### Validación de Datos
-Lanzará un mensaje notificando que falta llenar los campos para poder agregar un producto.
+Lanzará un mensaje notificando que falta llenar campos obligatorios para poder agregar un producto.
 <img width="781" height="588" alt="image" src="https://github.com/user-attachments/assets/03396146-9f29-4089-984f-b1f82d12b4f0" />
 
 ### Eliminar Producto y Persistencia
@@ -28,11 +28,11 @@ Esta imagen comprueba la funcionalidad de eliminación.
 <img width="781" height="587" alt="image" src="https://github.com/user-attachments/assets/c4ee412e-f13a-467b-a1f5-e84096c5d0ad" />
 <img width="783" height="589" alt="image" src="https://github.com/user-attachments/assets/737a6b5e-759f-4c4e-8a9d-3dddc17b9de4" />
 <img width="785" height="589" alt="image" src="https://github.com/user-attachments/assets/89aa0790-2620-430d-be15-51626c7fa996" />
-1.  **Arriba:** La aplicación muestra un mensaje de confirmación para eliminar algún dato seleccionado.
-2.  **Abajo:** La captura de SQL Developer confirman la operación, mostrando la tabla de la base de datos **después** de la eliminación del registro.
+1.  **Arriba:** La aplicación muestra un mensaje de confirmación para eliminar el dato seleccionado.
+2.  **Abajo:** La captura de SQL Developer confirma la operación, mostrando la tabla de la base de datos **después** de la eliminación del registro.
 <img width="418" height="134" alt="image" src="https://github.com/user-attachments/assets/eb1369f3-f930-41ca-9f57-396af38c7b32" />
 
-## Actualización de Datos
+### Actualización de Datos
 <img width="782" height="590" alt="image" src="https://github.com/user-attachments/assets/d78c5599-e902-4f2d-afdc-1fe9dba32312" />
 <img width="786" height="589" alt="image" src="https://github.com/user-attachments/assets/15e2ed06-3faf-423c-8765-38c008ac3732" />
 
@@ -44,7 +44,7 @@ Datos actualizados en la base de datos.
 * **Herencia:** Clase base `Producto` y derivada `ProductoFisico`.
 * **Polimorfismo:** Método `obtenerDetalles()` dinámico en la tabla.
 * **Encapsulamiento:** Protección de datos con getters/setters.
-* **Persistencia:** CRUD completo (Crear, Leer, Eliminar) conectado a BD real.
+* **Persistencia:** CRUD completo (Crear, Leer, Actualizar, Eliminar) conectado a BD real.
 
 ## 🛠️ Instalación
 1. Clonar el repositorio.
