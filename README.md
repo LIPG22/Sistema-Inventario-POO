@@ -11,23 +11,34 @@ Aplicación de escritorio para la gestión de productos, diseñada para demostra
 ## 📸 Capturas
 ### Agregar Nuevo Producto
 Al llenar el formulario y hacer clic en "Agregar Producto", los datos se envían a la base de datos mediante una sentencia `INSERT`. Una ventana emergente confirma que la operación ha sido exitosa.
-<img width="783" height="589" alt="image" src="https://github.com/user-attachments/assets/341bfec0-79ca-4caa-94dc-b83342a0799c" />
-<img width="780" height="586" alt="image" src="https://github.com/user-attachments/assets/6fa65f10-e7e3-4467-82e7-611453690037" />
-<img width="779" height="584" alt="image" src="https://github.com/user-attachments/assets/eec3103a-3b1e-4cf4-b748-c2f166a20473" />
+<img width="789" height="591" alt="image" src="https://github.com/user-attachments/assets/e06dd46d-574f-4810-b74b-54815362685a" />
+<img width="784" height="587" alt="image" src="https://github.com/user-attachments/assets/f4df6c70-115b-48a3-b8f7-fd802fe3646b" />
+<img width="783" height="592" alt="image" src="https://github.com/user-attachments/assets/794bf12a-1a72-4ac0-9c8f-61925bd41e8d" />
 
 Datos enviados a la base de datos.
 
-<img width="726" height="118" alt="image" src="https://github.com/user-attachments/assets/7c7e93bd-7706-44cd-bda4-7a278a088f46" />
+<img width="418" height="150" alt="image" src="https://github.com/user-attachments/assets/4e0ffa94-9183-4a7b-a7cc-525c1089bec2" />
 
 ### Validación de Datos
 Lanzara un mensaje notificando que falta llenar los campos para poder agregar un producto.
-<img width="781" height="589" alt="image" src="https://github.com/user-attachments/assets/c7a589f9-fc33-4119-be59-d623e7f4fcf2" />
+<img width="781" height="588" alt="image" src="https://github.com/user-attachments/assets/03396146-9f29-4089-984f-b1f82d12b4f0" />
+
 ### Eliminar Producto y Persistencia
 Esta imagen comprueba la funcionalidad de eliminación.
-<img width="786" height="588" alt="image" src="https://github.com/user-attachments/assets/1d3fd8b8-ce5a-48c8-8e51-da12baf2bfe4" />
-1.  **Arriba:** La aplicación muestra que el producto "Teclado" ha sido eliminado de la lista tras hacer clic en "Eliminar Seleccionado".
+<img width="781" height="587" alt="image" src="https://github.com/user-attachments/assets/c4ee412e-f13a-467b-a1f5-e84096c5d0ad" />
+<img width="783" height="589" alt="image" src="https://github.com/user-attachments/assets/737a6b5e-759f-4c4e-8a9d-3dddc17b9de4" />
+<img width="785" height="589" alt="image" src="https://github.com/user-attachments/assets/89aa0790-2620-430d-be15-51626c7fa996" />
+1.  **Arriba:** La aplicación muestra un mensaje de confirmación para eliminar algún dato seleccionado.
 2.  **Abajo:** Las capturas de SQL Developer confirman la operación, mostrando la tabla de la base de datos **antes** y **después** de la eliminación del registro con ID 3.
-<img width="693" height="92" alt="image" src="https://github.com/user-attachments/assets/84b4c62f-d2a6-42bb-8271-54f568c224f4" />
+<img width="418" height="134" alt="image" src="https://github.com/user-attachments/assets/eb1369f3-f930-41ca-9f57-396af38c7b32" />
+
+## Actualización de Datos
+<img width="782" height="590" alt="image" src="https://github.com/user-attachments/assets/d78c5599-e902-4f2d-afdc-1fe9dba32312" />
+<img width="786" height="589" alt="image" src="https://github.com/user-attachments/assets/15e2ed06-3faf-423c-8765-38c008ac3732" />
+
+Datos actualizados en la base de datos.
+
+<img width="414" height="129" alt="image" src="https://github.com/user-attachments/assets/811e7d5b-0591-4fe1-a068-ada04b2ca672" />
 
 ## 💡 Conceptos Aplicados
 * **Herencia:** Clase base `Producto` y derivada `ProductoFisico`.
