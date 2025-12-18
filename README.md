@@ -16,6 +16,7 @@ Al llenar el formulario y hacer clic en "Agregar Producto", los datos se envían
 <img width="779" height="584" alt="image" src="https://github.com/user-attachments/assets/eec3103a-3b1e-4cf4-b748-c2f166a20473" />
 
 Datos enviados a la base de datos.
+
 <img width="726" height="118" alt="image" src="https://github.com/user-attachments/assets/7c7e93bd-7706-44cd-bda4-7a278a088f46" />
 ### Validación de Datos
 Lanzara un mensaje notificando que falta llenar los campos para poder agregar un producto.
