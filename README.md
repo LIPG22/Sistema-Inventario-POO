@@ -29,7 +29,7 @@ Esta imagen comprueba la funcionalidad de eliminación.
 <img width="783" height="589" alt="image" src="https://github.com/user-attachments/assets/737a6b5e-759f-4c4e-8a9d-3dddc17b9de4" />
 <img width="785" height="589" alt="image" src="https://github.com/user-attachments/assets/89aa0790-2620-430d-be15-51626c7fa996" />
 1.  **Arriba:** La aplicación muestra un mensaje de confirmación para eliminar algún dato seleccionado.
-2.  **Abajo:** Las capturas de SQL Developer confirman la operación, mostrando la tabla de la base de datos **antes** y **después** de la eliminación del registro con ID 3.
+2.  **Abajo:** La captura de SQL Developer confirman la operación, mostrando la tabla de la base de datos **después** de la eliminación del registro.
 <img width="418" height="134" alt="image" src="https://github.com/user-attachments/assets/eb1369f3-f930-41ca-9f57-396af38c7b32" />
 
 ## Actualización de Datos
