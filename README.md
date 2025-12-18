@@ -21,7 +21,7 @@ Datos enviados a la base de datos.
 
 ### Validación de Datos
 Lanzara un mensaje notificando que falta llenar los campos para poder agregar un producto.
-<img width="780" height="589" alt="image" src="https://github.com/user-attachments/assets/190d4f7c-6ea5-4ba6-8158-7fd857b8ad8d" />
+<img width="781" height="589" alt="image" src="https://github.com/user-attachments/assets/c7a589f9-fc33-4119-be59-d623e7f4fcf2" />
 ### Eliminar Producto y Persistencia
 Esta imagen comprueba la funcionalidad de eliminación.
 <img width="786" height="588" alt="image" src="https://github.com/user-attachments/assets/1d3fd8b8-ce5a-48c8-8e51-da12baf2bfe4" />
