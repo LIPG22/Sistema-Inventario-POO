@@ -40,5 +40,5 @@ Aplicación de escritorio robusta para la gestión empresarial de inventarios. D
 
 ---
 <div align="center">
-  Desarrollado por <a href="https://github.com/LIPG22">Liam Isaac Peña</a>
+  Desarrollado por <a href="https://github.com/LIPG22">Liam Isaac Peña Gutiérrez</a>
 </div>
