@@ -8,8 +8,8 @@ public class InventarioDAO {
 
     // Datos de conexión
     private final String URL = "jdbc:oracle:thin:@localhost:1521:XE";
-    private final String USER = "SYSTEM";
-    private final String PASS = "TU_CONTRASEÑA";
+    private final String USER = "USUARIO_LIAM";
+    private final String PASS = "Li!Isa0!";
 
     // Método para conectar
     private Connection conectar() {
@@ -43,6 +43,33 @@ public class InventarioDAO {
             e.printStackTrace();
         }
         return lista;
+    }
+
+    // USUARIOS
+    public Usuario iniciarSesion(String nombreUsuario, String password) {
+        Usuario usuarioEncontrado = null;
+        // OJO: Ahora seleccionamos los datos reales, no COUNT
+        String sql = "SELECT * FROM USUARIOS WHERE NOMBRE = ? AND PASSWORD = ?";
+
+        try (Connection con = conectar(); PreparedStatement pst = con.prepareStatement(sql)) {
+
+            pst.setString(1, nombreUsuario);
+            pst.setString(2, password);
+
+            try (ResultSet rs = pst.executeQuery()) {
+                if (rs.next()) {
+                    // ¡Login exitoso! Construimos el objeto con los datos de la BD
+                    int id = rs.getInt("ID_USUARIO");
+                    String nombre = rs.getString("NOMBRE");
+                    String contra = rs.getString("PASSWORD");
+                    // Si tu clase Usuario tiene más campos, agrégalos aquí
+                    usuarioEncontrado = new Usuario(id, nombre, contra);
+                }
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al loguear: " + e.getMessage());
+        }
+        return usuarioEncontrado; // Retorna el objeto lleno o null
     }
 
     // INSERTAR (Create)
