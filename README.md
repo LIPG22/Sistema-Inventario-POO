@@ -10,9 +10,6 @@
 
 Aplicación de escritorio robusta para la gestión empresarial de inventarios. Desarrollada en **Java SE** implementando arquitectura por capas (MVC/DAO) y persistencia de datos de alto rendimiento con **Oracle Database**.
 
-## 📸 Capturas de Pantalla
-
-
 ## 🚀 Características Principales
 
 * **🔐 Seguridad y Autenticación:** Sistema de Login seguro con validación de credenciales contra base de datos y encriptación básica de sesión.
